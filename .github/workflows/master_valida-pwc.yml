@@ -65,6 +65,6 @@ jobs:
           app-name: 'valida-pwc'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_07BA4D7A0B754119AA1C0CA7CCCEB7E6 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CFC121054A21470E88C7F1362D7824FB }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true
